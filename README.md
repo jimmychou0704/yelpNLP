@@ -1,6 +1,5 @@
 # NLP
-In this notebook we use natural language methods to study Yelp data challenge. We predict ratings of each review by its text review. Our main goal is to implement the word2vec algorithm and compare it with other methods.
-
+In this notebook we use natural language methods to study Yelp data challenge. We predict ratings of each review by its text review. Our main goal is to implement the word2vec algorithm and deep learning method such as RNN and compare it with traditional methods such as TF-IDF.
 #### Data:  
 The size orignal data is about 5 gb of json files, which is a liitle bit too large for a laptop. So we did most analysis on AWS EMR using PySpark. Here we will just use a part of the data set to illustrate the idea. To my personal interst, I choose the restaurants with 'Chinese' in its business category.
 
